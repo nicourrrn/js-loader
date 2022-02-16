@@ -23,6 +23,6 @@ const loop = () => {
         setTimeout(() => {
             resolve()
         }, 1000)
-    }).then(loop)
+    })
 }
 loop()
